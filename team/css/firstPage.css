@@ -1,0 +1,127 @@
+body {background-image: url(../images/background1.png);
+	 background-repeat: repeat;
+	 }
+
+div #wrapper {width: 982px;
+			margin: 0 auto;
+			height: 679px;
+			position: relative;
+			}
+#headContainer {width:100%;
+}
+#headWrapper {width: 940px;
+			height: 100px;
+			padding: 0 20px 0px 20px;
+			margin: 0 auto;
+			border-bottom: 1px solid #363632;
+			}
+#headWrapper h1{float: left;}
+.titleDate {float: left;
+			font-size: 1.1em;
+			color: #f9dfb1;
+			margin-top: 32px;
+			font-weight: bold;
+			padding-left: 10px;
+			font: normal 20px/1.6em Microsoft YaHei,Tahoma,simsun;
+			}
+
+#articleContainer{width:100%;}
+#articleWrapper{width: 960px;
+				margin: 0 auto;
+				padding: 0 10px 0 10px;
+				}
+#slider-1 {width: 940px;
+		  height: 470px;
+		  padding: 20px 10px 20px 10px;
+		  }
+#slider-content {width: 940px;
+				height: 470px;
+				position: relative;
+				cursor: pointer;
+				}
+#slider-1 .slider_nav {cursor: default;
+						display: block;
+						float: right;
+						list-style: none;
+						bottom: 112px;
+						right: 0px;
+						padding: 1px 5px 3px 10px;
+						margin: 0;
+						background-repeat: no-repeat;
+						background-position: top left;
+						}
+.info_line{border: 0;
+			outline: 0;
+			font-weight: inherit;
+			font-style: inherit;
+			font-size: 100%;
+			font-family: inherit;
+			vertical-align: baseline;
+			text-decoration: none;
+			color: #ffffff; 
+			background-image:url(images/backgroundforword.png);
+			font-weight: 900;
+			font-family: 'Microsoft YaHei', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		}
+.clear{clear: both;}
+#message {border-bottom-color: rgb(54, 54, 50);
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-image-outset: 0px;
+		border-image-repeat: stretch;
+		border-image-slice: 100%;
+		border-image-source: none;
+		border-image-width: 1;
+		border-left-color: rgb(255, 255, 255);
+		border-left-style: none;
+		border-left-width: 0px;
+		border-right-color: rgb(255, 255, 255);
+		border-right-style: none;
+		border-right-width: 0px;
+		border-top-color: rgb(54, 54, 50);
+		border-top-style: solid;
+		border-top-width: 1px;
+		color: rgb(255, 255, 255);
+		display: block;
+		font-family: 'Microsoft YaHei', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		font-size: 23px;
+		font-style: normal;
+		font-weight: bold;
+		height: 100px;
+		letter-spacing: -1px;
+		line-height: 30px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+		outline-color: rgb(255, 255, 255);
+		outline-style: none;
+		outline-width: 0px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		vertical-align: baseline;}
+#footLeft {float: left;
+		   height: 59px;
+		   margin: 5px;
+		   
+			}
+#footRight {float: right;
+		   height: 59px;
+		   display: inline;
+			padding-right: 10px;
+		   margin: 5px;}
+#footRight li {display: inline;
+				padding-right: 10px;}
+#foot {font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun;
+		height: 59px;
+		color: gray;}
+
+a:link    {color:blue;}
+a:visited {color:gray;}
+a:hover   {color:red;}
+a:active  {color:gray;}

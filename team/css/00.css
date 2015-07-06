@@ -1,0 +1,55 @@
+@charset "utf-8";
+body,ul,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+body{
+	/**padding:10px;
+	background:#eeece7;**/
+}
+h1{
+	
+	color:#a4834d;
+}
+h1+p{
+	margin-bottom:3.5em;
+}
+#page-wrap{
+	width:960px;
+	margin:30px auto;
+	/**padding:3em;
+	background:#fff;
+	box-shadow:0 0 2px #62615f inset;**/
+	border-radius:20px;
+}
+#navigation{
+	padding:3px;
+}
+#navigation li{
+	float:left;
+	border-right:1px solid #eee;
+}
+#navigation li.focus{
+	top:0;
+	left:0;
+}
+#navigation li:last-child{
+	border:0;
+}
+#navigation li a{
+	border:0;
+	padding:10px;
+	font:14px/1 Verdana;
+	color:#a49e96;
+	text-decoration:none;
+}
+.no-js #navigation li a:hover,		/*.no-js����ϸ���Ͳο��鱾131P*/
+.no-js #navigation li a:focus,
+.no-js #navigation li.focus a,
+.lava{
+	border-radius:6px;
+	background:linear-gradient(180deg,#887963,#0b0a09);
+	/*-moz-radial-gradientΪ���򽥱䣨Ҫ��ǰ׺����ʹ�ã�������ʹ��������ɫʱ�����ǿ��Խ���ɫ������ʶ��ɫλ�õİٷ�ֵʡ�ԣ�Ĭ�������£���һ����ɫ��λ��Ϊ0%���ڶ�����ɫ��λ��Ϊ100%������linear-gradient(-90deg,#887963 0%,#bfaf7d 34%,#eccf76 72%,$0b0a09 100%)*/
+	box-shadow:0 0 2px #69635a;
+}
